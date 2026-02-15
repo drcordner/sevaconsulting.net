@@ -118,7 +118,32 @@ p:last-child {
     margin-bottom: calc(var(--spacing-unit) * 0.75);
 }
 
-/* Testimonial Carousel */
+/* Testimonial */
+.testimonial {
+    margin: calc(var(--spacing-unit) * 1.5) 0;
+    padding: 0;
+    border: none;
+}
+
+.testimonial p {
+    font-family: var(--font-serif);
+    font-size: 1.05rem;
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: var(--spacing-unit);
+}
+
+.testimonial footer {
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-style: normal;
+    color: var(--color-text-light);
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Testimonial Carousel (legacy, unused) */
 .testimonial-carousel {
     margin: calc(var(--spacing-unit) * 2.5) 0;
     padding: calc(var(--spacing-unit) * 1.5);
