@@ -4,7 +4,7 @@
     --color-bg: #faf9f7;
     --color-text: #2d2d2d;
     --color-text-light: #5a5a5a;
-    --color-accent: #8b7355;
+    --color-accent: #2c4a6e;
     --color-border: #e0dcd5;
     --font-serif: 'Libre Baskerville', Georgia, serif;
     --font-sans: 'Source Sans 3', -apple-system, sans-serif;
@@ -50,6 +50,16 @@ header {
     text-transform: uppercase;
     color: var(--color-accent);
     margin-bottom: calc(var(--spacing-unit) * 2);
+}
+
+.site-logo {
+    display: block;
+    margin-bottom: calc(var(--spacing-unit) * 2);
+}
+
+.site-logo img {
+    height: 100px;
+    width: auto;
 }
 
 h1 {
