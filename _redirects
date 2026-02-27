@@ -1,0 +1,3 @@
+# Rewrite /clarity (and /clarity/) to serve clarity.html (URL stays as requested)
+/clarity    /clarity.html    200
+/clarity/   /clarity.html    200

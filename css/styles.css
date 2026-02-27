@@ -226,6 +226,32 @@ p:last-child {
     border-top: 1px solid var(--color-border);
 }
 
+.situations-link {
+    color: var(--color-accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-accent);
+    transition: color 0.2s ease, border-color 0.2s ease;
+    font-size: 0.95rem;
+}
+
+.situations-link:hover {
+    color: var(--color-text);
+    border-color: var(--color-text);
+}
+
+.back-link {
+    color: var(--color-accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-accent);
+    transition: color 0.2s ease, border-color 0.2s ease;
+    font-size: 0.9rem;
+}
+
+.back-link:hover {
+    color: var(--color-text);
+    border-color: var(--color-text);
+}
+
 .contact a {
     color: var(--color-accent);
     text-decoration: none;
